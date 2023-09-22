@@ -1,0 +1,17 @@
+ To get started with Dependabot version updates, you'll need to specify which
+ package ecosystems to update and where the package manifests are located.
+ Please see the documentation for all configuration options:
+ https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+=
+version: ./master[exe@v.dev]
+updates: {!.all/github.pkg.atom}
+  package-ecosystem: '.all'
+    directory: [iam.dev/github.org/]
+     runner: .deb/admin 
+      interval: 'eval'
+=
+ package-evo-system: 'github-actions-packed'
+  directory: 'updates=A11/script*'
+    runner: './action.fuctions/read/write/filemanager/scan/analysis' 
+      interval: 'always.eval'
+==>
